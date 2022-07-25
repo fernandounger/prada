@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #F4F5F7;
+}
+body .shop {
+  background-color: #C4C4C4;
+  padding: 6px;
+  text-align: center;
+  text-decoration: underline;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+body header {
+  position: sticky;
+  top: 0;
+  background-color: #F4F5F7;
+  z-index: 100;
+}
+body header .header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #F4F5F7;
+  padding: 18px 5px;
+}
+body header .header__container .header__brand span {
+  font-size: 2.5rem;
+  font-family: "Modern No. 20", sans-serif;
+}
+body header .header__container .header__menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body header .header__container .header__menu li a {
+  font-family: "Modern No. 20", sans-serif;
+  color: #000000;
+}
+body .banner {
+  max-height: 600px;
+}
+body .banner .banner__woman {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("../img/sexy-woman.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+body .summer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 5px;
+}
+body .summer article {
+  padding: 35px 5px;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+body .summer article h2 {
+  font-family: "Modern No. 20", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+body .summer article p {
+  font-family: "Open Sans";
+  font-size: 1.2rem;
+  margin: 24px auto;
+}
+body .summer article button {
+  padding: 20px 40px;
+  border: 1px solid #000000;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  font-size: 0.9rem;
+  transition: background-color 0.4s ease-in;
+}
+body .summer article button:hover {
+  background-color: #000000;
+  color: #F4F5F7;
+  font-weight: 700;
+}
+body .summer .arrivals__title {
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 2rem;
+  margin: 45px auto;
+}
+body .summer .arrivals__women, body .summer .arrivals__men {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  gap: 2.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .summer .arrivals__women .card__arrivals, body .summer .arrivals__men .card__arrivals {
+  max-width: 360px;
+}
+body .summer .arrivals__women .card__arrivals img, body .summer .arrivals__men .card__arrivals img {
+  width: 100%;
+  margin-bottom: 20px;
+  transition: width 0.2s ease-in-out;
+}
+body .summer .arrivals__women .card__arrivals img:hover, body .summer .arrivals__men .card__arrivals img:hover {
+  width: 98%;
+}
+body .summer .arrivals__women .card__arrivals span, body .summer .arrivals__men .card__arrivals span {
+  color: #C4C4C4;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+}
+body .summer .arrivals__women .card__arrivals h3, body .summer .arrivals__men .card__arrivals h3 {
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+body .layers {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 5px;
+  flex-wrap: wrap-reverse;
+}
+body .layers .layers__content {
+  max-width: 380px;
+  padding: 20px;
+}
+body .layers .layers__content h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+body .layers .layers__content p {
+  font-family: "Open Sans";
+}
+body .layers .layers__content button {
+  margin: 24px 0;
+  padding: 20px 40px;
+  border: 1px solid #000000;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  font-size: 0.9rem;
+  transition: background-color 0.4s ease-in;
+}
+body .layers .layers__content button:hover {
+  background-color: #000000;
+  color: #F4F5F7;
+  font-weight: 700;
+}
+body .layers .layers__image {
+  max-width: 800px;
+}
+body .layers .layers__image img {
+  width: 100%;
+}
+body .banner__pipup {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("../img/pin-up-girl.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  top: 0;
+}
+body .banner__pipup div {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 50px;
+}
+body .banner__pipup div h4 {
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #F4F5F7;
+  margin-bottom: 20px;
+}
+body .banner__pipup div button {
+  padding: 20px 40px;
+  border: 1px solid #F4F5F7;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #F4F5F7;
+  font-size: 0.9rem;
+  transition: background-color 0.4s ease-in;
+}
+body .banner__pipup div button:hover {
+  background-color: transparent;
+  color: #F4F5F7;
+}
+body .footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 5px;
+  align-items: flex-start;
+  gap: 2rem;
+}
+body .footer .footer__content {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+}
+body .footer .footer__content .footer__menu {
+  display: flex;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+}
+body .footer .footer__content .footer__menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+body .footer .footer__content .footer__menu ul h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+body .footer .footer__content .footer__menu ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  color: #000000;
+}
+body .footer .follow {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+body .footer .store {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
